@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pinetwork-js/api-typing": "^0.7.0",
+    "@pinetwork-js/sdk": "^0.7.0",
     "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
     "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
