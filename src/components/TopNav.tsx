@@ -1,4 +1,4 @@
-import { User } from "../App";
+import { User } from "../routes/App";
 
 interface topNavProps {
   user: User | null;
