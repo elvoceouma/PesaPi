@@ -4,7 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Pesa Pi</title>
+    
+
+    <!-- Import the Pi Network App Platform SDK: -->
+    <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+    
+    <!-- TODO make sandbox conditional to env (dev / prod) -->
+    <script>
+      // Make the decision whether Pi SDK should run in "Sandbox" mode or "Pi Browser" mode based on the
+      // dedicated environment variable:
+      // treat env vars as strings, not booleans
+      
+      // Init Pi SDK:
+      Pi.init({ version: "2.0", sandbox: true });
+    </script>
+    
   </head>
   <body>
     <div id="root"></div>
